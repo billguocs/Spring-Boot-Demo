@@ -10,6 +10,13 @@
     <name>Spring-Boot-demo</name>
     <description>Spring-Boot-demo</description>
 
+    <developers>
+        <developer>
+            <name>Bill Guo</name>
+            <url>https://github.com/billguocs</url>
+        </developer>
+    </developers>
+
     <scm>
         <url>https://github.com/billguocs/Spring-Boot-Demo</url>
         <connection>scm:git:https://github.com/billguocs/Spring-Boot-Demo.git</connection>
