@@ -35,6 +35,7 @@
         <module>demo-log</module>
         <module>demo-orm-mybatisplus</module>
         <module>demo-orm-jpa</module>
+        <module>demo-shardingsphere</module>
     </modules>
 
     <properties>
