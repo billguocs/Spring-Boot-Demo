@@ -1,0 +1,1 @@
+insert into employee (id, name, age, email, address) values (1, 'foo', 22, 'foo@bar.com', 'hk');

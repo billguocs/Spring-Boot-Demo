@@ -5,4 +5,4 @@ create table if not exists employee (
     email varchar(50)
 );
 
-insert into employee (id, name, age, email) values (1, 'foo', 22, 'foo@bar.com');
+alter table employee add column address varchar(100);

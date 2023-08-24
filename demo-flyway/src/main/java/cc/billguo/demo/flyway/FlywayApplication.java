@@ -1,6 +1,6 @@
 package cc.billguo.demo.flyway;
 
-import org.flywaydb.core.Flyway;
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -11,14 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class FlywayApplication {
-    public static void main(String[] args) {
-        Flyway flyway = Flyway.configure()
-                .dataSource("jdbc:h2:file:./target/test", "sa", null)
-                .locations("migration")
-                .schemas("PUBLIC")
-                .baselineOnMigrate(true)
-                .load();
 
-        flyway.migrate();
+    public static void main(String[] args) {
+        SpringApplication.run(FlywayApplication.class, args);
     }
 }
