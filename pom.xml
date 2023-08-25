@@ -31,7 +31,6 @@
         <module>demo-mq-rabbitmq</module>
         <module>demo-mq-rocketmq</module>
         <module>demo-mq-kafka</module>
-        <module>demo-zookeeper</module>
         <module>demo-log</module>
         <module>demo-orm-mybatisplus</module>
         <module>demo-orm-jpa</module>
