@@ -35,6 +35,7 @@
         <module>demo-orm-mybatisplus</module>
         <module>demo-orm-jpa</module>
         <module>demo-shardingsphere</module>
+        <module>demo-spring-boot-starter</module>
     </modules>
 
     <properties>
